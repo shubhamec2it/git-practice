@@ -1,4 +1,4 @@
-####i'm pushing this msg to git
+####I am pushing this msg to git
 clear;
 echo "enter your name";
 read name;
