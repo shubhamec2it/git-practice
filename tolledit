@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 #!/bin/bash
 #author: Shubham
+=======
+>>>>>>> parent of 2ac4c08 (update bin bash in tolledit)
 echo "enter the state name"
 read name
 i=`cat toll.txt |cut -f6 -d ,|grep -i $name |wc -l`
