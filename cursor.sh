@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Count toll plazas in toll.txt by state name (case-insensitive).
 # Matches only the "Plaza State" column (last column), not text elsewhere in the line.
 # Usage: ./toll_count.sh
