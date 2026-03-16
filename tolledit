@@ -1,0 +1,10 @@
+echo "enter the state name"
+read name
+i=`cat toll.txt |cut -f6 -d ,|grep -i $name |wc -l`
+if [ $i -gt 0 ]
+then
+  echo "the count of toll plaza in the search state $name is $i"
+else
+  echo "the state name $name is invalid or there are no toll plaza in entire state"
+fi
+
