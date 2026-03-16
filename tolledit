@@ -1,4 +1,5 @@
 #!/bin/bash
+#author: Shubham
 echo "enter the state name"
 read name
 i=`cat toll.txt |cut -f6 -d ,|grep -i $name |wc -l`
