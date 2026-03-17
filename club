@@ -1,0 +1,12 @@
+read -p "enter your name" nm
+read -p "enter your doy"  yrs
+
+if [[ $yrs -gt 1947 ]] && [[ $yrs -le 2000 ]]
+
+then
+	touch $nm"club"
+	ls -ltr
+	echo "hey welcome to the club plz enjoy your self"
+else
+	"oops..sry you are not allowed here"
+fi
